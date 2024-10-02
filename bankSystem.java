@@ -27,6 +27,7 @@ class bank {
         if(depositAmount > 0){
             balance += depositAmount;
             System.out.println("You have succesfully depositing RM:" + depositAmount);
+            System.out.println();
         }
     }
 
@@ -36,9 +37,11 @@ class bank {
         if(withdrawAmount <= balance){
             balance -= withdrawAmount;
             System.out.println("You have succesfully withdrawal RM:" + withdrawAmount);
+            System.out.println();
         }
         else{
             System.out.println("You have insufficient balance for withdrawl.");
+            System.out.println();
         }
 
     }
@@ -47,6 +50,7 @@ class bank {
      public void checkBalance(){
 
         System.out.println("Your account balance is: RM" + balance);
+        System.out.println();
 
     }
 

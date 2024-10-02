@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 //super class
 
 class Vehicle{
