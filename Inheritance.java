@@ -98,7 +98,7 @@ public class Inheritance{
         Motorcycle motor = new Motorcycle("Honda", "EX5", 2017, 50.00, 109);
 
         //initialize day
-        int days = 5;
+        int days = 3;
 
         //Print out car details
         System.out.println("---Car Details---");
