@@ -1,0 +1,6 @@
+5
+2
+Division by zero error for number 0
+10
+Invalid number format
+7
